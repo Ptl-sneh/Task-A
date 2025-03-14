@@ -38,3 +38,24 @@ Purpose: Toggles the app between encryption and decryption modes. When unchecked
 **Output Display**
 Purpose: Shows the result of the encryption or decryption process. It presents the transformed message clearly, prefixed with "Encrypted Message" or "Decrypted Message" based on the mode.
 
+## Example
+Here’s a quick example to see the Caesar Cipher Tool in action:
+
+**For Encryption**
+
+**Input:**
+Message: Hello, World!
+Shift Value: 3
+Decrypt Mode: Unchecked (Encrypt)
+**Output:**
+Encrypted Message: Khoor, Zruog!
+
+**For Decryption**
+
+**Input**
+Message: Khoor, Zruog!
+Shift Value: 3
+Decrypt Mode: Checked (Decrypt)
+**Output**
+Decrypted Message: Hello, World!
+
