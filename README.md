@@ -19,7 +19,7 @@ pip install streamlit
 ## Running the App
 
 Access the App Open your web browser and visit the deployed application at:
-URL: https://huggingface.co/spaces/ptlsneh/CesarCipher
+URL: https://huggingface.co/spaces/ptlsneh/CeasorCipher
 
 ## Project Components
 
