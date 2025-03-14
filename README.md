@@ -52,7 +52,7 @@ Here’s a quick example to see the Caesar Cipher Tool in action:
 
 **Input:**
 
-Message: Hello, World!
+Message: hello, world!
 
 Shift Value: 3
 
@@ -60,13 +60,13 @@ Decrypt Mode: Unchecked (Encrypt)
 
 **Output:**
 
-Encrypted Message: Khoor, Zruog!
+Encrypted Message: khoor, zruog!
 
 **For Decryption**
 
 **Input**
 
-Message: Khoor, Zruog!
+Message: khoor, zruog!
 
 Shift Value: 3
 
@@ -74,5 +74,5 @@ Decrypt Mode: Checked (Decrypt)
 
 **Output**
 
-Decrypted Message: Hello, World!
+Decrypted Message: hello, world!
 
