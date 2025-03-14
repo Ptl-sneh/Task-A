@@ -4,7 +4,7 @@ st.set_page_config(page_title="Ceasar Cipher Tool" , layout="wide")
 
 st.title("Ceasar Cipher Tool")
 
-st.caption("Enter a message and adjust the shift to encrypt or decrypt")
+st.caption("**Enter a message and adjust the shift to encrypt or decrypt**")
 
 shift = st.sidebar.slider(
     "Shift",
@@ -14,7 +14,7 @@ shift = st.sidebar.slider(
     step = 1,
     help = "Number of positions to shift each letter in the alphabet."
 )
-st.sidebar.caption("Purpose: Sets how many positions each letter shifts in the alphabet.")
+st.sidebar.caption("**Purpose: Sets how many positions each letter shifts in the alphabet.**")
 
 def Encrypt(message):
     encrypt = ""
@@ -25,7 +25,7 @@ def Encrypt(message):
         else:
             encrypt = encrypt + i 
 
-    st.success(f"Encrypted Message: {encrypt}")
+    st.success(f"**Encrypted Message: {encrypt}**")
 
 def Decrypt(message):
     decrypt = ""
@@ -36,15 +36,15 @@ def Decrypt(message):
         else: 
             decrypt = decrypt + i
 
-    st.success(f"Decrypted Message: {decrypt}")
+    st.success(f"**Decrypted Message: {decrypt}**")
     
 message = st.text_area("Enter the Message",  placeholder = "Type your message", help="Enter text to encrypt or decrypt.")
-st.caption("Purpose: Provides the text to be encrypted or decrypted.")
+st.caption("**Purpose: Provides the text to be encrypted or decrypted.**")
 
 letters = "abcdefghijklmnopqrstuvwxyz"
 
 c_box = st.checkbox("Decrypt Mode", help="Check to decrypt the message; leave unchecked to encrypt it.")
-st.caption("Purpose: Toggles between encrypting and decrypting the input message.")
+st.caption("**Purpose: Toggles between encrypting and decrypting the input message.**")
 
 if message:
     if c_box:
@@ -52,4 +52,4 @@ if message:
     else:
         Encrypt(message)    
 else:
-    st.info("Please type a message to begin.")
+    st.info("**Please type a message to begin.**")
