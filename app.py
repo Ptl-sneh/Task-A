@@ -1,8 +1,8 @@
 import streamlit as st
 
-st.set_page_config(page_title="Encrypt/Decrypt the Message" , layout="wide")
+st.set_page_config(page_title="Ceasar Cipher Tool" , layout="wide")
 
-st.title("Encrypt and Decrypt the Message")
+st.title("Ceasar Cipher Tool")
 
 st.caption("Enter a message and adjust the shift to encrypt or decrypt")
 
