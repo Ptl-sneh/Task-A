@@ -25,7 +25,7 @@ def Encrypt(message):
         else:
             encrypt = encrypt + i 
 
-    st.info(f"Encrypted Message: {encrypt}")
+    st.success(f"Encrypted Message: {encrypt}")
 
 def Decrypt(message):
     decrypt = ""
@@ -36,7 +36,7 @@ def Decrypt(message):
         else: 
             decrypt = decrypt + i
 
-    st.info(f"Decrypted Message: {decrypt}")
+    st.success(f"Decrypted Message: {decrypt}")
     
 message = st.text_area("Enter the Message",  placeholder = "Type your message", help="Enter text to encrypt or decrypt.")
 st.caption("Purpose: Provides the text to be encrypted or decrypted.")
